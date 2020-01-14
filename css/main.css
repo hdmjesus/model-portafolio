@@ -1,375 +1,546 @@
-/*--------------------------------------------------------- Generales */
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    
-    
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Fjalla One', sans-serif;
-}
-
-h1 {
-    line-height: 1.5em;
-    font-size: 40px;
-    font-weight: normal;
-    letter-spacing: -.2px;
-    /* text-transform: capitalize; */
-}
-h1 {
-    color: #fff;
-    margin: 0;
-    
-}
-
-h2{
-    color: #026fff;
-    text-transform: uppercase;
-    font-family:'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-/*--------------------------------------------------------- Generales */
-
-/*--------------------------------------------------------- HEADER */
-
-
-
-header {
-    display: flex;
-    background-color: #1b2127;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-
-
-}
-
-.menu
-{
-}
-nav ul {
-    
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul li{
-    
-   list-style: none;
-}
-nav ul li a{
-    
-    padding: 0 10px;
- }
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-}
-
-header a:hover{
-    border-bottom: 2px solid #fff;
-}
-
-.logo img{
-
-    width: 80px;
-
-}
-.logo{
-    margin: 0 40px;
-}
-
-/*--------------------------------------------------------- HEADER */
-
-/*---------------------------------------------------------  MI PERSONA */
-
-.hero {
-    width: 100%;
-    height: 300px;
-    justify-content: space-between;
-    background-color:#1b2127e0;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    display: flex;
-    align-items: center;
-}
-
-.hero-img{
-
-    object-fit: cover;
-}
-
-h1 strong {
-    color: #026fff;
-}
-
-.hero h1
-{
-    margin: 0 30px;
-}
-/*---------------------------------------------------------  MI PERSONA */
-
-/*---------------------------------------------------------  PORTAFOLIO */
-
-.proyect{
-    display: flex;
-    padding: 20px;
-    margin-bottom: 15px;
-    background-color: #fff;
-    border: 1px solid #000;
-    border-radius: 10px;
-    width: 100%;
-    /* max-width: 1000px; */
-    justify-content: space-between;
-    
-}
-
-.proyect strong{
-
-    font-family: 'Fjalla One', sans-serif;
-}
-.portfolio{
-
-    background-color: #fafafa;
-    padding: 20px;
-}
-
-
-.proyect .proyect-text {
-    width: 50%;
-}
-
-.proyect-title,
-.proyect-course,
-.proyect-date,
-.proyect-url{
-
-     margin: 10px 0;
-}
-.proyect-title,{
-    font-size: 30px;
-}
-
-.proyect-description{
-    text-align: justify;
-    font-size: 20px;
-}
-
-.proyect .proyect-imageContainer {
-    width: 40%;
-    height: 200px;
-}
-.proyect .proyect-imageContainer img{
-   height: 200px;
-   vertical-align: middle;
-}
-
-
-/*---------------------------------------------------------  PORTAFOLIO */
-
-/*---------------------------------------------------------  EVENTOS */
-.events-list-title{
-
-    margin-left: 30px;
-}
-.eventos{
-
-    margin: 0 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.event{
-    
-    margin: 10px;
-    width: 480px;
-    background-color: #f4fbff;   
-    border-radius: 10px;
-    overflow: hidden;
-       
-    
-}
-.event figure{
-    
-}
-
-.event img{
-
-    width: 480px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.event-detail
-{
-    background-color: #fff;
-    margin: 20px 40px;
-    padding: 20px;
-    position: relative;
-    text-align: center;
-    margin-top: -60px;
-}
-
-.event-description{
-
-    text-align: left;
-    margin-bottom: 20px;
-}
-.event-title{
-
-    margin-bottom: 10px;
-}
-
-.event-url{
-
-    border: 1px solid #056fff;
-    padding: 5px 20px;
-    text-decoration: none;
-    color: #056fff;
-    border-radius: 5px;
-}
-
-
-/*---------------------------------------------------------  EVENTOS */
-
-/*---------------------------------------------------------  Contacto */
-
-
-.contact{
-
-    display: flex;
-    align-items: center;
-    background-color: #056fff;
-    color: #fff;
-    height: 150px;
-    justify-content: space-between;
-}
-
-.form-email h3{
-
-    margin-left: 20px;
-    font-family:'Source Sans Pro', sans-serif; ;
-}
-
-.form-email input[type="submit"]{
-    
-    display: block;
-    background-color: transparent;
-    color: #fff;
-    padding: 5px 30px;
-    border: 1px solid #fff;
-    cursor: pointer;
-    width: 100px;
- 
-    
-}
-
-.form-email input{
-
-    border-color: gray;
-    padding: 5px 15px;
-    border-radius: 5px;
-    border-style: solid;
-    margin: 5px 20px;
-   
-  
-
-}
-
-.social{
-    
-    width: 400px;
-  
-}
-
-.social-link.twitter{
-    font-size: 50px;
-    color: #fff;
-    margin: 20px;
-}
-.social-link.instagram{
-    font-size: 50px;
-    color: #fff;
-    margin: 20px;
-}
-.social-link.facebook{
-    font-size: 50px;
-    color: #fff;
-    margin: 20px;
-}
-.social-link.github {
-    font-size: 50px;
-    color: #fff;
-    margin: 20px;
-}
-
-/*---------------------------------------------------------  Contacto */
-
-/*---------------------------------------------------------  FOOTER */
-
-.footer{
-
-    background-color: #1b2127;
-    color: #fff;
-    display: flex;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer a{
-
-    color: #fff;
-  
-}
-
-.social-twitter{
-
-    margin: 0 10px;
-}
-
-.curso{
-
-    margin: 0 30px;
-}
-/*---------------------------------------------------------  FOOTER */
-
-.wrapper {
-    
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    overflow: hidden;
-    flex-wrap: inherit;
-}
-
-.contenedor
-{
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
+            /*--------------------------------------------------------- Generales */
+            
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            
+            body {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: 'Fjalla One', sans-serif;
+            }
+            
+            h1 {
+                line-height: 1.5em;
+                font-size: 40px;
+                font-weight: normal;
+                letter-spacing: -.2px;
+                /* text-transform: capitalize; */
+            }
+            
+            h1 {
+                color: #fff;
+                margin: 0;
+            }
+            
+            h2 {
+                color: #026fff;
+                text-transform: uppercase;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 30px;
+            }
+            /*--------------------------------------------------------- Generales */
+            /*--------------------------------------------------------- HEADER */
+            
+            header {
+                display: flex;
+                background-color: #1b2127;
+                justify-content: space-between;
+                align-items: center;
+                height: auto;
+                flex-wrap: wrap;
+            }
+            
+            .botton-hamburguer {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: rgba(0, 0, 0, .3);
+                text-align: center;
+                display: block;
+                line-height: 40px;
+                position: fixed;
+                z-index: 4;
+            }
+            
+            .menu {}
+            
+            nav ul {
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            nav ul li {
+                list-style: none;
+            }
+            
+            nav ul li a {
+                padding: 0 10px;
+            }
+            
+            header a {
+                color: #fff;
+                text-decoration: none;
+                border-bottom: 2px solid transparent;
+            }
+            
+            header nav ul li a:hover {
+                border-bottom: 2px solid #fff;
+            }
+            
+            .logo img {
+                width: 80px;
+            }
+            
+            .logo {
+                display: inherit;
+                justify-content: center;
+                align-items: center;
+                margin: 0 40px;
+            }
+            
+            header .menu-icon {
+                font-size: 30px;
+                display: none;
+            }
+            /*--------------------------------------------------------- HEADER */
+            /*---------------------------------------------------------  MI PERSONA */
+            
+            .hero {
+                width: 100%;
+                height: auto;
+                justify-content: space-between;
+                background-color: #1b2127e0;
+                background-size: 500px 300px;
+                background-repeat: no-repeat;
+                background-position-x: right;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            
+            .hero-img {
+                object-fit: cover;
+            }
+            
+            h1 strong {
+                color: #026fff;
+            }
+            
+            .hero h1 {
+                margin: 0 30px;
+            }
+            /*---------------------------------------------------------  MI PERSONA */
+            /*---------------------------------------------------------  PORTAFOLIO */
+            
+            .proyect {
+                display: flex;
+                padding: 20px;
+                margin-bottom: 15px;
+                background-color: #fff;
+                border: 1px solid #000;
+                border-radius: 10px;
+                width: 100%;
+                /* max-width: 1000px; */
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            
+            .proyect strong {
+                font-family: 'Fjalla One', sans-serif;
+            }
+            
+            .portfolio {
+                background-color: #fafafa;
+                padding: 20px;
+            }
+            
+            .proyect .proyect-text {
+                width: 50%;
+            }
+            
+            .proyect-title,
+            .proyect-course,
+            .proyect-date,
+            .proyect-url {
+                margin: 10px 0;
+            }
+            
+            .proyect-title,
+            {
+                font-size: 30px;
+            }
+            
+            .proyect-description {
+                text-align: justify;
+                font-size: 20px;
+            }
+            
+            .proyect .proyect-imageContainer {
+                height: 200px;
+                margin: 0 auto;
+            }
+            
+            .proyect figure img {
+                width: 200px;
+                height: 200px;
+                vertical-align: middle;
+                margin-left: 100px;
+                margin: 0 auto;
+            }
+            /*---------------------------------------------------------  PORTAFOLIO */
+            /*---------------------------------------------------------  EVENTOS */
+            
+            .events-list-title {
+                margin-left: 30px;
+            }
+            
+            .eventos {
+                margin: 0 30px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            
+            .event {
+                margin: 1%;
+                width: 48%;
+                flex-shrink: 0;
+                background-color: #f4fbff;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            
+            .event .html-video {
+                width: 100%;
+                height: auto;
+                /* height: 100%; */
+            }
+            
+            .event figure {}
+            
+            .event img {
+                width: 480px;
+                height: 200px;
+                object-fit: cover;
+            }
+            
+            .event-detail {
+                background-color: #fff;
+                margin: 20px 40px;
+                padding: 20px;
+                position: relative;
+                text-align: center;
+                margin-top: -60px;
+            }
+            
+            .event-description {
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            
+            .event-title {
+                margin-bottom: 10px;
+            }
+            
+            .event-url {
+                border: 1px solid #056fff;
+                padding: 5px 20px;
+                text-decoration: none;
+                color: #056fff;
+                border-radius: 5px;
+            }
+            /*---------------------------------------------------------  EVENTOS */
+            /*---------------------------------------------------------  Contacto */
+            
+            .contact {
+                display: flex;
+                align-items: center;
+                background-color: #056fff;
+                color: #fff;
+                height: 150px;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            .form-email h3 {
+                margin-left: 20px;
+                font-family: 'Source Sans Pro', sans-serif;
+                ;
+            }
+            
+            .form-email input[type="submit"] {
+                display: block;
+                background-color: transparent;
+                color: #fff;
+                padding: 5px 30px;
+                border: 1px solid #fff;
+                cursor: pointer;
+                width: 100px;
+            }
+            
+            .form-email input {
+                border-color: gray;
+                padding: 5px 15px;
+                border-radius: 5px;
+                border-style: solid;
+                margin: 5px 20px;
+            }
+            
+            .social {
+                width: 400px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+            
+            .social-link.twitter {
+                font-size: 50px;
+                color: #fff;
+                margin: 20px;
+            }
+            
+            .social-link.instagram {
+                font-size: 50px;
+                color: #fff;
+                margin: 20px;
+            }
+            
+            .social-link.facebook {
+                font-size: 50px;
+                color: #fff;
+                margin: 20px;
+            }
+            
+            .social-link.github {
+                font-size: 50px;
+                color: #fff;
+                margin: 20px;
+            }
+            /*---------------------------------------------------------  Contacto */
+            /*---------------------------------------------------------  FOOTER */
+            
+            .footer {
+                background-color: #1b2127;
+                color: #fff;
+                display: flex;
+                height: 100px;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .footer a {
+                color: #fff;
+            }
+            
+            .social-twitter {
+                margin: 0 10px;
+            }
+            
+            .curso {
+                margin: 0 30px;
+            }
+            /*---------------------------------------------------------  FOOTER */
+            
+            .wrapper {
+                /* width: 100%; */
+                max-width: 1000px;
+                margin: 0 auto;
+                display: inherit;
+                justify-content: inherit;
+                align-items: inherit;
+                height: inherit;
+                overflow: hidden;
+                flex-wrap: inherit;
+                flex: 1;
+            }
+            
+            .contenedor {
+                width: 100%;
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+            /*---------------------------------------------------------  FOOTER */
+            /*---------------------------------------------------------  QUERIES */
+            /* ----------------Desktop First----- */
+            
+            @media screen and (max-width:1024px) {
+                .proyect .proyect-text {
+                    font-size: 20px;
+                }
+                .hero {
+                    height: auto;
+                    position: relative;
+                    overflow: hidden;
+                    padding: 2em;
+                }
+                h1 {
+                    font-size: 2em;
+                    z-index: 2;
+                    background: rgba(0, 0, 0, .5);
+                }
+                .hero img {
+                    position: absolute;
+                    z-index: 1;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    width: 100%;
+                }
+                .youtube-video {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                .flexible-video {
+                    position: relative;
+                    width: 100%;
+                    height: 0;
+                    padding-top: 56.25%;
+                    background-color: royalblue;
+                }
+            }
+            
+            @media screen and (max-width:767px) {
+                header {
+                    display: block;
+                    height: auto;
+                }
+                header ul {
+                    display: initial;
+                }
+                header ul li {
+                    height: 50px;
+                    text-align: center;
+                }
+                header .logo {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                    display: block;
+                }
+                header .menu a {
+                    height: 40px;
+                    font-size: 1.5em;
+                    text-decoration: underline;
+                    margin-bottom: .5em;
+                }
+                .menu {
+                    position: fixed;
+                    top: 0;
+                    left: -100vw;
+                    background-color: rgba(5, 111, 255, .9);
+                    width: 60vw;
+                    height: 100vh;
+                    z-index: 3;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: .3s;
+                }
+                .menu.is-active {
+                    left: 0;
+                }
+                header .menu-icon {
+                    display: initial;
+                    color: #fff;
+                    position: absolute;
+                    font-size: 1.5em;
+                    top: 40px;
+                    left: 50px;
+                    text-align: center;
+                }
+                .proyect {
+                    display: block;
+                }
+                .proyect .proyect-text {
+                    width: auto;
+                    font-size: 16px;
+                }
+                .proyect-title {
+                    font-size: 1.5em;
+                    margin-bottom: .3em;
+                }
+                .proyect-course {
+                    font-size: 0.7em;
+                }
+                .proyect.date {
+                    font-size: 1em;
+                }
+                .proyect-url {
+                    font-size: 1em;
+                }
+                .proyect-description {
+                    font-size: 0.8em;
+                    line-height: 1.5em;
+                }
+                .proyect-imageContainer {
+                    text-align: center;
+                    width: auto;
+                }
+                .proyect-course,
+                .proyect-date,
+                .proyect-url {
+                    margin: 0.4em 0;
+                }
+                .event {
+                    width: auto;
+                    flex-shrink: initial;
+                }
+                .event img {
+                    width: 100%;
+                }
+            }
+            
+            @media screen and (max-width:480px) {
+                .proyect .proyect-text {
+                    font-size: 12px;
+                }
+                .event-detail {
+                    margin: -2em .5em .5em .5em;
+                    padding: 1em;
+                }
+                .contact {
+                    padding: 1em 0;
+                    height: auto;
+                    text-align: center;
+                    display: block;
+                }
+                .contact input[type=submit] {
+                    margin: 1em auto;
+                }
+                .contact .social {
+                    margin: 0 auto;
+                }
+                h1 {
+                    font-size: 1.5em;
+                }
+            }
+            
+            @media screen and (max-width:320px) {
+                .proyect .proyect-text {
+                    font-size: 10px;
+                }
+                .contact .social a {
+                    font-size: 30px;
+                }
+                .contact .social {
+                    padding: 2%;
+                }
+                h1 {
+                    font-size: 1.2em;
+                }
+                .hero {
+                    padding: 2em 1em;
+                }
+            }
+            /*---------------------------------------------------------  QUERIES */
