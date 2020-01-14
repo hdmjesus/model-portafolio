@@ -368,7 +368,7 @@
             /*---------------------------------------------------------  QUERIES */
             /* ----------------Desktop First----- */
             
-            @media screen and (max-width:1024px) {
+            @media screen and (max-width:1023px) {
                 .proyect .proyect-text {
                     font-size: 20px;
                 }
