@@ -33,7 +33,7 @@
             }
             
             h2 {
-                color: #026fff;
+                color: #25f062;
                 text-transform: uppercase;
                 font-family: 'Source Sans Pro', sans-serif;
                 font-weight: bold;
@@ -127,7 +127,7 @@
             }
             
             h1 strong {
-                color: #026fff;
+                color: #25f062;
             }
             
             .hero h1 {
@@ -248,11 +248,10 @@
             }
             
             .event-url {
-                border: 1px solid #056fff;
+                border: 1px solid #25f062;
                 padding: 5px 20px;
                 text-decoration: none;
-                color: #056fff;
-                border-radius: 5px;
+                color: #25f062 border-radius: 5px;
             }
             /*---------------------------------------------------------  EVENTOS */
             /*---------------------------------------------------------  Contacto */
@@ -260,7 +259,7 @@
             .contact {
                 display: flex;
                 align-items: center;
-                background-color: #056fff;
+                background-color: #25f062;
                 color: #fff;
                 height: 150px;
                 flex-wrap: wrap;
@@ -438,7 +437,7 @@
                     position: fixed;
                     top: 0;
                     left: -100vw;
-                    background-color: rgba(5, 111, 255, .9);
+                    background-color: rgba(37, 240, 98, .9);
                     width: 60vw;
                     height: 100vh;
                     z-index: 3;
