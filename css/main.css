@@ -1,4 +1,4 @@
-            /*--------------------------------------------------------- Generales */
+                    /*--------------------------------------------------------- Generales */
             
             * {
                 box-sizing: border-box;
@@ -241,6 +241,7 @@
             .event-description {
                 text-align: left;
                 margin-bottom: 20px;
+                text-align: justify;
             }
             
             .event-title {
@@ -463,7 +464,7 @@
                 }
                 .proyect .proyect-text {
                     width: auto;
-                    font-size: 16px;
+                    font-size: 17px;
                 }
                 .proyect-title {
                     font-size: 1.5em;
@@ -479,7 +480,7 @@
                     font-size: 1em;
                 }
                 .proyect-description {
-                    font-size: 0.8em;
+                    font-size: 1em;
                     line-height: 1.5em;
                 }
                 .proyect-imageContainer {
@@ -500,9 +501,29 @@
                 }
             }
             
+            @media screen and (max-width:667px) {
+                .contact {
+                    display: block;
+                    height: auto;
+                    text-align: center;
+                }
+                .contact h3 {
+                    margin-top: 20px;
+                }
+                .social {
+                    margin: 0 auto;
+                }
+                .form-email input[type="submit"] {
+                    margin: 10px auto;
+                }
+            }
+            
             @media screen and (max-width:480px) {
                 .proyect .proyect-text {
-                    font-size: 12px;
+                    font-size: 16px;
+                }
+                .proyect .proyect-description {
+                    font-size: 1em;
                 }
                 .event-detail {
                     margin: -2em .5em .5em .5em;
@@ -527,13 +548,17 @@
             
             @media screen and (max-width:320px) {
                 .proyect .proyect-text {
-                    font-size: 10px;
+                    font-size: 13px;
+                }
+                .contact {
+                    display: block;
+                }
+                .social {
+                    margin: 0 auto;
+                    width: initial;
                 }
                 .contact .social a {
                     font-size: 30px;
-                }
-                .contact .social {
-                    padding: 2%;
                 }
                 h1 {
                     font-size: 1.2em;
